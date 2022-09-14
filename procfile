@@ -1,1 +1,1 @@
-web: gunicorn djangoOTdetection.wsgi --log-file -
+web: gunicorn djangoOTdetection.wsgi

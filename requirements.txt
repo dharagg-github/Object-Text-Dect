@@ -4,6 +4,7 @@ certifi==2022.6.15.2
 charset-normalizer==2.1.1
 Django==4.1.1
 easyocr==1.6.1
+gunicorn==20.1.0
 idna==3.4
 imageio==2.21.3
 networkx==2.8.6
