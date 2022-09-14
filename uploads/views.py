@@ -10,13 +10,9 @@ import io
 import base64
 # Create your views here.
 def index(request):
-    console.log("B44 post")
     if request.method == 'POST':
-        console.log("B4 post")
         form=ImageForm(request.POST, request.FILES)
-        console.log("posted")
         if form.is_valid():
-            console.log("validate")
             instance = form.save()
             IMAGE_PATH = instance.image.path
             #print(IMAGE_PATH)
