@@ -25,7 +25,7 @@ Shapely==1.8.4
 six==1.16.0
 sqlparse==0.4.2
 tifffile==2022.8.12
-torch==1.8.1+cpu
+torch==1.11.0+cpu
 torchvision==0.9.1+cpu
 typing_extensions==4.3.0
 tzdata==2022.2
