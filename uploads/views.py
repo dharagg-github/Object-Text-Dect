@@ -4,7 +4,7 @@ from .models import Image
 import easyocr
 from PIL import Image
 import cv2
-from matplotlib import pyplot as plt
+# from matplotlib import pyplot as plt
 import numpy
 import io
 import base64
